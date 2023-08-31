@@ -36,13 +36,13 @@ class HomePage extends StatelessWidget {
               },
               child: Text('Escolha 1'),
             ),
-            SizedBox(width: 240), // Espaço entre os elementos
+            SizedBox(width: 200), // Espaço entre os elementos
             Container(
               width: 300,
-              height: 600,
+              height: 500,
               color: Color.fromARGB(255, 139, 12, 12), // Cor do retângulo
             ),
-            SizedBox(width: 270), // Espaço entre os elementos
+            SizedBox(width: 200), // Espaço entre os elementos
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/page2');
@@ -72,13 +72,13 @@ class Page1 extends StatelessWidget {
               },
               child: Text('Escolha 1'),
             ),
-            SizedBox(width: 270), // Espaço entre os elementos
+            SizedBox(width: 200), // Espaço entre os elementos
             Container(
               width: 300,
-              height: 600,
+              height: 500,
               color: Color.fromARGB(255, 139, 12, 12), // Cor do retângulo
             ),
-            SizedBox(width: 240), // Espaço entre os elementos
+            SizedBox(width: 200), // Espaço entre os elementos
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/page2');
